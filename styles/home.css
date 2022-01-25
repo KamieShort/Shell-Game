@@ -1,4 +1,29 @@
 
+.allshells{
+display: flex;
+flex-direction: row;
+}
+
+#eggshell1 {
+    height: 70%;
+    width: 50%;
+    border: dotted;
+    align-items: center;
+    display: flex;
+}
+
+#seashell1 {
+    height: 70%;
+    width: 90%;
+    border: dotted;
+    align-items: center;
+}
+#snailshell1 {
+    height: 70%;
+    width: 60%;
+    border: dotted;
+    align-items: center;
+}
 
 
-.ball {}
+#ball {}
