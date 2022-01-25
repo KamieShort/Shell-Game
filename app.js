@@ -1,4 +1,8 @@
 // import functions and grab DOM elements
+const balleggshell = document.getElementbyID ('balleggshell')
+const ballseashell = document.getElementbyID ('ballseashell')
+const ballsnailshell = document.getElementbyID ('ballsnailshell')
+
 
 // let state
 
