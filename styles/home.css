@@ -32,3 +32,8 @@ flex-direction: row;
     border-radius: 50%;
     background-color: purple;
 }
+
+.reveal {
+    height: 0%;
+    width: 0%;
+}
