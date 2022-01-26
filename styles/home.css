@@ -2,7 +2,6 @@
 .allshells{
 display: flex;
 flex-direction: row;
-justify-content: center;
 justify-content: space-between;
 }
 
@@ -16,7 +15,7 @@ justify-content: space-between;
 
 #seashell1 {
     height: 60%;
-    width: 85%;
+    width: 90%;
     border: dotted;
     align-items: center;
 }
@@ -27,8 +26,7 @@ justify-content: space-between;
     align-items: center;
 }
 
-
-.purpleball {
+.reveal {
     height: 30%;
     width: 30%;
     border-radius: 50%;
@@ -36,12 +34,4 @@ justify-content: space-between;
     margin-bottom: 20%;
     justify-content: center;
 }
-.results {
-    flex-direction: row;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-}
 
-.reveal {
-    height: 0%;
-    width: 0%;
-}
