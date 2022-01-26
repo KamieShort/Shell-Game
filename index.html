@@ -17,33 +17,35 @@
         <section>
             <h2>Find the ball!</h2>   
 
-            <h3>Game Stats</h3>
-            <h2 id="counter">0</h2>
-            <button id="add">Add 1</button>
-            <button id="reset">reset</button>
         </section>
-        <section><div class="allshells">
+        <section>
+            <div class="allshells">
 
-            <div class="eggshell">
-            <img src="./assets/eggshell.jpg" id="eggshell1"/>
-            <div id="eggshellball" class="purpleball"></div>
-            <button id="eggshellbutton">Look Here!</button>
-        </div>
-        <div class="seashell">
-            <img src="./assets/seashell.jpg" id="seashell1"/>
-            <div id="seashellball" class="purpleball"></div>
-            <button id="seashellbutton">Look Here!</button>
-        </div>
-        <div class="snailshell">
-            <img src="./assets/snail.jpg" id="snailshell1"/>
-            <div id="snailshellball" class="purpleball"></div>
-            <button id="snailshellbutton">Look Here!</button>
-        </div>
-        <div class="results">
-            <div>Wins: <span id="Wins">0</span></div>
-            <div>Losses: <span id="Losses">0</span></div>
-            <div>Total: <span id="Total">0</span></div>
-        </div>
+                <div class="eggshell">
+                <img src="./assets/eggshell.jpg" id="eggshell1"/>
+                <div id="eggshellball" class="reveal"></div>
+                <button id="eggshellbutton">Look Here!</button>
+                </div>
+
+                <div class="seashell">
+                <img src="./assets/seashell.jpg" id="seashell1"/>
+                <div id="seashellball" class="reveal"></div>   <!---was purpleball-->
+                <button id="seashellbutton">Look Here!</button>
+                </div>
+
+                <div class="snailshell">
+                <img src="./assets/snail.jpg" id="snailshell1"/>
+                <div id="snailshellball" class="reveal"></div>
+                <button id="snailshellbutton">Look Here!</button>
+                </div>
+            </div>
+
+            <h3>Game Stats</h3>
+            <div class="results">
+            <div>Wins: <span id="wins">0</span></div>
+            <div>Losses: <span id="losses">0</span></div>
+            <div>Total: <span id="total">0</span></div>
+            </div>
         </section>
     </main>
     <footer>
