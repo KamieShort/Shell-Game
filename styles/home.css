@@ -1,37 +1,51 @@
-
-.allshells{
-display: flex;
-flex-direction: row;
-justify-content: space-between;
+/* * .flex-container { */
+*/
+    /* display: flexbox; */
+    /* } */
+    
+    .image {
+    margin: 20px;
+}
+.allshells {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 10px;
 }
 
 #eggshell1 {
-    height: 60%;
-    width: 50%;
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
     border: dotted;
-    align-items: center;
-    display: flex;
+    /* align-items: center; */
+    /* justify-content: space-between; */
 }
 
 #seashell1 {
-    height: 60%;
-    width: 90%;
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
     border: dotted;
     align-items: center;
+    /* justify-content: space-between; */
 }
 #snailshell1 {
-    height: 60%;
-    width: 60%;
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
     border: dotted;
     align-items: center;
+    /* justify-content: space-between; */
 }
 
 .reveal {
-    height: 30%;
-    width: 30%;
+    height: 60px;
+    width: 60px;
     border-radius: 50%;
     background-color: purple;
-    margin-bottom: 20%;
-    justify-content: center;
 }
 
+#game-stats {
+    margin-top: 5%;
+}
